@@ -37,16 +37,9 @@ Ensure your system connects to a **trusted Wi-Fi network** automatically when it
 
 ### 4️⃣ Run the Automation Script as Administrator  
 To schedule the monitoring system to run automatically:  
-1. Open **PowerShell** as **Administrator**.  
-2. Navigate to the project directory:  
-   ```sh
-   cd "C:\path\to\your\project"
-   ```  
-3. Run the automation script:  
-   ```sh
-   powershell -ExecutionPolicy Bypass -File automate.ps1
-   ```  
-4. This sets up a scheduled task to ensure the system runs at startup.  
+1. Open **Visual studio code** and run **automate.py**. don't worry you will get the error.  
+2. Copy the line in VS code terminal that run this script
+3. Open powershell as administrator and paste.
 
 ## 📧 Report Bugs  
 If you find any issues or bugs, please email me at **mahdigorzedin@gmail.com**.  
@@ -55,11 +48,3 @@ If you find any issues or bugs, please email me at **mahdigorzedin@gmail.com**.
 
 ✅ **Now your Login Monitor System is fully set up and ready to protect your device! Stay secure! 🔒🚀**
 ```
-
-### **Key Improvements:**
-- **Proper Markdown formatting** for **GitHub compatibility**.  
-- **Clear step-by-step instructions** with numbered lists.  
-- **Formatted code blocks (`sh`, `python`)** for better readability.  
-- **Professional and structured layout**.  
-
-This is now **ready to use** as your `README.md`. Let me know if you need any refinements! 🚀
