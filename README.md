@@ -1,7 +1,7 @@
 # 🔐 Login Monitor System  
 
 ## 📌 About This Project  
-This project is designed to monitor login attempts on your computer. If there are more than **three failed login attempts**, the system captures a photo using the webcam and sends it to your email as a security alert.  
+This project is designed to monitor login attempts on your computer. I have done it as a university project in the Principles of Operating System course. If there are more than **three failed login attempts**, the system captures a photo using the webcam and sends it to your email as a security alert.  
 
 ## ⚙️ Setup Instructions  
 To ensure the system works correctly, follow these steps:  
@@ -13,7 +13,7 @@ By default, Windows may enter hibernation instead of fully shutting down. To pre
 3. Click **Change settings that are currently unavailable**.  
 4. **Uncheck** *Turn on fast startup* and save changes.  
    
-This ensures your system fully shuts down and restarts properly.  
+This ensures your system entirely shuts down and restarts appropriately.  
 
 ### 2️⃣ Insert Your Email Credentials  
 To enable email alerts, you must add your email credentials:  
@@ -38,8 +38,8 @@ Ensure your system connects to a **trusted Wi-Fi network** automatically when it
 ### 4️⃣ Run the Automation Script as Administrator  
 To schedule the monitoring system to run automatically:  
 1. Open **Visual studio code** and run **automate.py**. don't worry you will get the error.  
-2. Copy the line in VS code terminal that run this script
-3. Open powershell as administrator and paste.
+2. Copy the line in VS code terminal that runs this script
+3. Open Powershell as administrator and paste.
 
 ## 📧 Report Bugs  
 If you find any issues or bugs, please email me at **mahdigorzedin@gmail.com**.  
