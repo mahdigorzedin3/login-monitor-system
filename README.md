@@ -27,13 +27,7 @@ To enable email alerts, you must add your email credentials:
 3. **Important:** Use an app password instead of your real password. You can generate one in your email provider’s security settings.  
 
 ### 3️⃣ Auto-Connect to Trusted Wi-Fi  
-Ensure your system connects to a **trusted Wi-Fi network** automatically when it turns on:  
-1. Open **Command Prompt (cmd)** as **Administrator**.  
-2. Run the following command (replace `"WiFi-Name"` with your network name):  
-   ```sh
-   netsh wlan set profileparameter name="WiFi-Name" connectionmode=auto
-   ```  
-3. This ensures the system is always online to send security alerts.  
+Ensure your system connects to a **trusted Wi-Fi network** automatically when it turns on 
 
 ### 4️⃣ Run the Automation Script as Administrator  
 To schedule the monitoring system to run automatically:  
@@ -47,4 +41,3 @@ If you find any issues or bugs, please email me at **mahdigorzedin@gmail.com**.
 ---
 
 ✅ **Now your Login Monitor System is fully set up and ready to protect your device! Stay secure! 🔒🚀**
-```
